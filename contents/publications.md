@@ -2,10 +2,6 @@
 
   **Tianle Liu**, Fan Lyu, Chenggong Ni, Zhang Zhang, Fuyuan Hu, Liang Wang. 
 
-- **Energy Ring: Stabilizing Feature Energy for Reliable Test-Time Discovery**
-
-  Tianle Liu, Fan Lyu
-
 - **E-Logic Prompt: Unified Energy-Logic Framework for Continual Visual Question Answering**  (Accepted by AAAI 2026 Oral)
   
   Jiayao Tan, **Tianle Liu**, Fuyuan Hu, Wei Feng, Liang Wan 
