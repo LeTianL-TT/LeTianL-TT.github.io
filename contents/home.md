@@ -1,4 +1,4 @@
-**Date of Birth:** Jan. 2002  **Place of Birth / Home Adress:** Suzhou, Jiangsu Province
+**Date of Birth:** Jan. 2002&ensp;&ensp;&ensp;&ensp;&ensp;**Place of Birth / Home Adress:** Suzhou, Jiangsu Province
 
 [![LeTianL-TT](https://img.shields.io/badge/LeTianL-github-blue?logo=github)](https://github.com/LeTianL-TT)
 
@@ -7,17 +7,16 @@ I'm currently pursuing a Master's degree major in Computer Science and Technolog
 #### Email  
 <code>tianleliu@post.usts.edu.cn</code>  
 
-#### Education  
-**Suzhou High School of Jiangsu Province**     (High school 2017 – 2020)
+#### Education
+
+**Suzhou High School of Jiangsu Province**     (2017 – 2020, High school)
 
 **Nanjing Forestry University**     (2020 – 2024)  
-Bachelor student Major in Landscape Architecture
-
+Bachelor student Major in Landscape Architecture  
 Bachelor student Minor in Computer Science and Technology
 
-**Suzhou University of Science and Technology**     (2024 – Persent) 
-
-Master student Major in 081200 Computer Science and Technology  
+**Suzhou University of Science and Technology**     (2024 – Persent)   
+Master student Major in 081200 Computer Science and Technology at School of Electronic & Information Engineering
 
 #### Research Interests  
 XX, XX, XX, XX.
