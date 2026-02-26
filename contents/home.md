@@ -9,14 +9,14 @@ I'm currently pursuing a Master's degree major in Computer Science and Technolog
 
 #### Education
 
-**Suzhou High School of Jiangsu Province**     (2017 – 2020, High school)
+**Suzhou High School of Jiangsu Province**&ensp;&ensp;(2017 – 2020, High school)
 
-**Nanjing Forestry University**     (2020 – 2024)  
-Bachelor student Major in Landscape Architecture  
-Bachelor student Minor in Computer Science and Technology
+**Nanjing Forestry University**&ensp;&ensp;(2020 – 2024)  
+*Bachelor student Major in* Landscape Architecture  
+*Bachelor student Minor in* Computer Science and Technology
 
-**Suzhou University of Science and Technology**     (2024 – Persent)   
-Master student Major in 081200 Computer Science and Technology at School of Electronic & Information Engineering
+**Suzhou University of Science and Technology** &ensp;&ensp;(2024 – Persent)   
+*Master student Major in* 081200 Computer Science and Technology at School of Electronic & Information Engineering
 
-#### Research Interests  
-XX, XX, XX, XX.
+#### Current Research Direction  
+Novel Category Discovery, Continual Learning, Multimodal Learning.
