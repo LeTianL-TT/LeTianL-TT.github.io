@@ -15,7 +15,7 @@ I'm currently pursuing a Master's degree major in Computer Science and Technolog
 *Bachelor student Major in* Landscape Architecture  
 *Bachelor student Minor in* Computer Science and Technology
 
-**Suzhou University of Science and Technology** &ensp;&ensp;(2024 – Persent)   
+**Suzhou University of Science and Technology** &ensp;&ensp;(2024 – Present)   
 *Master student Major in* 081200 Computer Science and Technology at School of Electronic & Information Engineering
 
 #### Current Research Direction  
