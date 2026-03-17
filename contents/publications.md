@@ -8,4 +8,8 @@
 
 - **Towards Dynamic Modality Alignment in Multimodal Continual Learning**  (Accepted by CVPR 2026 Poster)
   
-  Jiayao Tan, Fan Lyu, **Tianle Liu**, Fuyuan Hu, Wei Feng
+  Jiayao Tan, Fan Lyu,  Fuyuan Hu, Wei Feng
+  
+- **Expansive Geometry Stabilization for Exemplar-free Continual Learning with Pre-trained Models**  (Accepted by ICME 2026)
+  
+  Yinying Mei\*, Linlan Zhao\*, **Tianle Liu**, Fenglei Xu, Fuyuan Hu, Fan Lyu
