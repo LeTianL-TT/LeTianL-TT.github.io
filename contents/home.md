@@ -1,13 +1,36 @@
-**Date of Birth:** Jan. 2002&ensp;&ensp;&ensp;&ensp;&ensp;**Place of Birth / Home Address:** Suzhou, Jiangsu Province
+---
+page_title: Tianle Liu | Researcher
+name: Tianle Liu
+kicker: Academic homepage
+role: M.Sc. Candidate in Computer Science and Technology
+summary: Researching novel category discovery, continual learning, test-time learning, and multimodal learning.
+portrait: static/assets/img/photo.png
+links:
+  - label: "GitHub: https://github.com/LeTianL-TT"
+    url: https://github.com/LeTianL-TT
+    icon: code-2
+  - label: "Email: tianleliu@post.usts.edu.cn"
+    url: mailto:tianleliu@post.usts.edu.cn
+    icon: mail
+details:
+  - label: Affiliation
+    value: Suzhou University of Science and Technology
+  - label: Status
+    value: Seeking 2027 Fall PhD
+  - label: Date of birth
+    value: January 2002
+  - label: Hometown
+    value: Suzhou, Jiangsu, China
+research_areas:
+  - Novel Category Discovery
+  - Continual Learning
+  - Test-Time Learning
+  - Multimodal Learning
+---
 
-[![LeTianL-TT](https://img.shields.io/badge/LeTianL-github-blue?logo=github)](https://github.com/LeTianL-TT)
+I am currently pursuing a Master's degree in Computer Science and Technology at Suzhou University of Science and Technology, advised by [Prof. Fuyuan Hu](http://eie.usts.edu.cn/info/1120/2954.htm) and [Instructor Fan Lyu](https://fanlyu.com/). My work focuses on **Novel Category Discovery in open-world settings**, particularly continual learning and test-time learning. I also study multimodal learning and class-incremental learning.
 
-I'm currently pursuing a Master's degree major in Computer Science and Technology at Suzhou University of Science and Technology, under the supervision of [Prof. Fuyuan Hu](http://eie.usts.edu.cn/info/1120/2954.htm) and [Instructor. Fan Lyu](https://fanlyu.com/). My research direction during my master's degree is Novel Category Discovery under Open-World setting with an emphasis on Continual Learning and Test-Time Learning.  I have also studied multimodal learning and regular incremental learning.
-
-#### Email  
-<code>tianleliu@post.usts.edu.cn</code>  
-
-#### Education
+### Education
 
 **Suzhou High School of Jiangsu Province**&ensp;&ensp;( 2017 – 2020, High school )
 
@@ -17,6 +40,3 @@ I'm currently pursuing a Master's degree major in Computer Science and Technolog
 
 **Suzhou University of Science and Technology** &ensp;&ensp;( 2024 – Present )   
 *Master student Major in* 081200 Computer Science and Technology at School of Electronic & Information Engineering
-
-#### Current Research Direction  
-Novel Category Discovery, Continual Learning, Multimodal Learning.

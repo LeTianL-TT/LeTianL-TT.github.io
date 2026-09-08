@@ -1,196 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic homepage of Tianle Liu">
+    <meta name="theme-color" content="#0b1730">
+    <title>Tianle Liu | Researcher</title>
+    <link rel="icon" href="static/assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/main.css">
+    <script defer src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="static/js/marked.min.js"></script>
+    <script defer src="static/js/js-yaml.min.js"></script>
+    <script defer src="static/js/scripts.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="LeLeTT" />
-    <title id="title"></title>
+    <header class="site-header" id="site-header">
+      <div class="shell nav-shell">
+        <a class="wordmark" href="#top" aria-label="Back to top">
+          <span class="wordmark-mark">TL</span>
+          <span class="wordmark-name" id="nav-name">Tianle Liu</span>
+        </a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a class="is-active" href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Work</a>
+          <a href="#awards">Recognition</a>
+        </nav>
+        <button class="icon-button menu-button" id="menu-button" type="button" aria-label="Open navigation" aria-controls="mobile-nav" aria-expanded="false">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Work</a>
+        <a href="#awards">Recognition</a>
+      </nav>
+    </header>
 
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
-
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-    <!-- For Compatability -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script"
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
-
-</head>
-
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#home">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">PATENTS & PROJECTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
-                    </li>
-                    
-                </ul>
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-name">
+        <div class="hero-architecture" aria-hidden="true"></div>
+        <div class="shell hero-grid">
+          <div class="hero-copy reveal is-visible">
+            <p class="eyebrow"><span></span><span id="hero-kicker">Academic homepage</span></p>
+            <h1 id="hero-name">Tianle <em>Liu</em></h1>
+            <p class="hero-role" id="hero-role">M.Sc. Candidate in Computer Science and Technology</p>
+            <p class="hero-summary" id="hero-summary">Researching novel category discovery, continual learning, test-time learning, and multimodal learning.</p>
+            <div class="hero-actions" id="hero-links" aria-label="Contact links"></div>
+            <dl class="hero-details" id="hero-details"></dl>
+          </div>
+          <div class="hero-visual reveal is-visible" aria-label="Portrait of Tianle Liu">
+            <div class="portrait-frame">
+              <img id="portrait-image" src="static/assets/img/photo.png" alt="Portrait of Tianle Liu">
             </div>
+          </div>
         </div>
-    </nav>
+      </section>
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
+      <section class="overview section-band" id="about" aria-labelledby="about-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span></span>01 / Profile</p>
+              <h2 id="about-title">Curious about the <em>unknown.</em></h2>
             </div>
+            <p class="section-rail">Researching reliable visual intelligence in changing, open-ended environments.</p>
+          </div>
+          <div class="profile-content markdown-body reveal" id="home-md" aria-live="polite"></div>
         </div>
-    </section>
-    <!-- Top Section -->
+      </section>
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
+      <section class="research-strip" aria-label="Research areas">
+        <div class="shell">
+          <p class="strip-label">Research directions</p>
+          <div class="research-areas" id="research-areas"></div>
         </div>
-    </div>
-    <!-- Photo -->
+      </section>
 
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
-        </div>
-    </section>
-    <!-- Home -->
-
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-
-        </div>
-    </section>
-    <!-- Publications  -->
-
-    
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>PATENTS & PROJECTS </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
-        </div>
-    </section>
-    <!-- Awards -->
-
-    <!-- Experience -->
-    <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience">
-        <div class="container px-5">
-            <header>
-                <h2 id="experience-subtitle"><i class="bi bi-briefcase-fill"></i> EXPERIENCE </h2>
-            </header>
-            <div class="main-body" id="experience-md"></div>
-        </div>
-    </section>
-    <!-- Experience -->
-
-    
-
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link"
-                    href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
+      <section class="publications section-band" id="publications" aria-labelledby="publications-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span></span>02 / Selected work</p>
+              <h2 id="publications-title">Recent <em>publications.</em></h2>
             </div>
+            <p class="section-rail">A selection of work across novel category discovery, continual learning, and multimodal intelligence.</p>
+          </div>
+          <div class="publication-list reveal" id="publications-md" aria-live="polite"></div>
         </div>
+      </section>
+
+      <section class="experience section-band" id="experience" aria-labelledby="experience-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span></span>03 / In practice</p>
+              <h2 id="experience-title">From theory to <em>living systems.</em></h2>
+            </div>
+            <p class="section-rail">Developing machine intelligence that can observe, adapt, and protect the physical world.</p>
+          </div>
+          <div class="experience-list markdown-body reveal" id="experience-md" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="recognition section-band" id="awards" aria-labelledby="awards-title">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span></span>04 / Recognition</p>
+              <h2 id="awards-title">Patents &amp; <em>projects.</em></h2>
+            </div>
+            <p class="section-rail">Patented methods and funded research focused on adaptive, open-world intelligence.</p>
+          </div>
+          <div class="recognition-list markdown-body reveal" id="awards-md" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p class="footer-signoff">Let's make intelligent systems<br>more <em>open to the unknown.</em></p>
+        <div>
+          <a class="footer-email" id="footer-email" href="mailto:tianleliu@post.usts.edu.cn">tianleliu@post.usts.edu.cn</a>
+          <p class="footer-meta" id="copyright-text">Copyright Tianle Liu 2026</p>
+        </div>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
