@@ -7,7 +7,7 @@ Participated in the R&D of an AI-driven preventive protection system for World H
 - Combining surveying data and elevation coordinates, register the scanned point cloud data and construct a digital visualization model.  
 - Implemented differential analysis comparing multi-temporal point clouds to quantify vertical displacement, surface cracks, and structural tilt with sub-centimeter accuracy. 
 
----
+
 
 ### **园林石质假山文化遗产多模态智能监测与风险预警系统**  
 参与了人工智能驱动的世界遗产（苏州园林）预防性保护系统的研发，整合了多模态传感、3D点云分析和大规模基础模型，实现了假山结构的智能监测和风险预测。该项目通过数字孪生技术和持续学习算法解决了文化遗产保护中的关键挑战。
