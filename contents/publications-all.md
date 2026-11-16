@@ -35,3 +35,13 @@
   **Expansive Geometry Stabilization for Exemplar-free Continual Learning with Pre-trained Models**
 
   Yinying Mei\*, Linlan Zhao\*, **Tianle Liu**, Fenglei Xu, Fuyuan Hu, Fan Lyu
+
+- [![Overview of the prototype and locality-sensitive hashing classifiers for test-time discovery](contents/paper_fig/ttd-hashing-memory.png)](https://arxiv.org/abs/2503.10699)
+
+  `arXiv 2025` `Preprint`
+
+  **Test-Time Discovery via Hashing Memory**
+
+  Fan Lyu, **Tianle Liu**, Zhang Zhang, Fuyuan Hu, Liang Wang
+
+  [Paper](https://arxiv.org/abs/2503.10699) · [Code](https://github.com/fanlyu/ttd)

@@ -125,6 +125,7 @@ h1, h2, h3, h4, p { margin-top: 0; }
 .ranking-badge-b { color: #8c6bac; border-color: #e7ddf3; background: #f9f5fe; }
 .highlight-badge { color: #9f7932; border-color: #ebdfc7; background: #fdf8eb; }
 .format-badge { color: #5c8b81; border-color: #dae9e4; background: #f4faf7; }
+.preprint-badge { color: #626d7f; border-color: #e1e5eb; background: #f1f3f6; }
 .publication-links { display: flex; flex-wrap: wrap; gap: 7px; font-size: 0; }
 .publication-links a { display: inline-flex; align-items: center; gap: 5px; padding: 3px 8px; border: 1px solid #e0e7f1; border-radius: 5px; color: #61758d; font-size: 10px; font-weight: 500; text-decoration: none; background: #fff; transition: border-color .2s, color .2s; }
 .publication-links a:hover { color: var(--blue); border-color: #b9d1f0; }

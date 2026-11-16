@@ -190,6 +190,7 @@ function decoratePublications(container) {
         if (/CCF-?\s*B/i.test(label)) badge.classList.add("ranking-badge-b");
         if (/oral|spotlight/i.test(label)) badge.classList.add("highlight-badge");
         if (/poster/i.test(label)) badge.classList.add("format-badge");
+        if (/^(arxiv\b|preprint$)/i.test(label)) badge.classList.add("preprint-badge");
       });
       content.prepend(badges);
     }
