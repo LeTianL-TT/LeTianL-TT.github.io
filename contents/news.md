@@ -2,6 +2,8 @@
 Only years are used below because exact acceptance dates have not been provided.
 The homepage shows four updates initially and offers an expand button for more. -->
 
+- **2026.11** — 3 paper were submitted to **CVPR 2027**.
+- **2026.10** — I have been awarded **National Scholarship for Postgraduates**.
 - **2026.03** — Expansive Geometry Stabilization for Exemplar-free Continual Learning with Pre-trained Models was accepted to **ICME 2026 (Poster)**.
 - **2026.02** — Towards Dynamic Modality Alignment in Multimodal Continual Learning was accepted to **CVPR 2026 (Poster)**.
 - **2026.01** — E-Logic Prompt was accepted to **AAAI 2026 (Oral)**.

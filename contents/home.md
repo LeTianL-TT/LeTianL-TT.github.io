@@ -3,7 +3,7 @@ page_title: Tianle Liu | Researcher
 name: Tianle Liu
 kicker: Academic homepage
 role: M.Sc. Candidate in Computer Science and Technology
-summary: Researching novel category discovery, continual learning, test-time learning, and multimodal learning.
+summary: Make intelligence more open to unknown.
 portrait: static/assets/img/photo.png
 banner: static/assets/img/portrait-dsc05482.jpg
 banner_alt: A photographer silhouetted against an architectural staircase

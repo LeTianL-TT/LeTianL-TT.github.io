@@ -30,11 +30,11 @@
 
 - ![Comparison of globally realigned and expansive ETF structures](contents/paper_fig/icme2026.png)
 
-  `ICME 2026` `CCF-B`
+  `ICME 2026` `CCF-B` `Poster`
 
   **Expansive Geometry Stabilization for Exemplar-free Continual Learning with Pre-trained Models**
 
-  Yinying Mei\*, Linlan Zhao\*, **Tianle Liu**, Fenglei Xu, Fuyuan Hu, Fan Lyu
+  Yinying Mei\*, Linlan Zhao\*, Fan Lyu, **Tianle Liu**, Fenglei Xu, Fuyuan Hu
 
 - [![Overview of the prototype and locality-sensitive hashing classifiers for test-time discovery](contents/paper_fig/ttd-hashing-memory.png)](https://arxiv.org/abs/2503.10699)
 
